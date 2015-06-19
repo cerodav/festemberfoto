@@ -182,7 +182,7 @@ class submission
 
 				$imgtype=$img1["type"];
 			    $ext= $this->GetImageExtension($imgtype);
-				$targetpath="./images/".$mobilenum."entry1".$ext;
+				$targetpath="./images/entries/".$mobilenum."entry1".$ext;
 				if(!empty($img1))
 				{
 					$tempname=$img1['tmp_name'];
@@ -194,7 +194,7 @@ class submission
 
 				$imgtype=$img2["type"];
 			    $ext= $this->GetImageExtension($imgtype);
-				$targetpath="./images/".$mobilenum."entry2".$ext;
+				$targetpath="./images/entries/".$mobilenum."entry2".$ext;
 				if(!empty($img2))
 				{
 					$tempname=$img2['tmp_name'];
@@ -206,7 +206,7 @@ class submission
 
 				$imgtype=$img3["type"];
 			    $ext= $this->GetImageExtension($imgtype);
-				$targetpath="./images/".$mobilenum."entry3".$ext;
+				$targetpath="./images/entries/".$mobilenum."entry3".$ext;
 				if(!empty($img3))
 				{
 					$tempname=$img3['tmp_name'];
@@ -218,7 +218,7 @@ class submission
 
 				$imgtype=$ori1["type"];
 			    $ext= $this->GetImageExtension($imgtype);
-				$targetpath="./images/".$mobilenum."ori1".$ext;
+				$targetpath="./images/entries/".$mobilenum."ori1".$ext;
 				if(!empty($ori1))
 				{
 					$tempname=$ori1['tmp_name'];
@@ -230,7 +230,7 @@ class submission
 
 				$imgtype=$ori2["type"];
 			    $ext= $this->GetImageExtension($imgtype);
-				$targetpath="./images/".$mobilenum."ori2".$ext;
+				$targetpath="./images/entries/".$mobilenum."ori2".$ext;
 				if(!empty($ori2))
 				{
 					$tempname=$ori2['tmp_name'];
@@ -242,7 +242,7 @@ class submission
 
 				$imgtype=$ori3["type"];
 			    $ext= $this->GetImageExtension($imgtype);
-				$targetpath="./images/".$mobilenum."ori3".$ext;
+				$targetpath="./images/entries/".$mobilenum."ori3".$ext;
 				if(!empty($ori3))
 				{
 					$tempname=$ori3['tmp_name'];

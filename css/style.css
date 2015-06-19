@@ -95,6 +95,25 @@ p {
     background-color: #181A1C;
     transition: border-color 1s ease;
 }
+
+.leftalign
+{
+    width: 80%;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.linker
+{
+    color: #F00;
+    text-decoration: underline;
+}
+
+.linker:hover
+{
+    background-color: #000;
+}
+
 .nav-pills {
     margin-bottom: 30px;
 }
